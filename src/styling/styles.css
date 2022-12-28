@@ -1,13 +1,17 @@
+body, #content, #displayBody { 
+    min-height: 100vh; 
+}
+
 body {
     font-family: sans-serif;
     color: white;
     background-color: #121212;
 }
 
-#content {
+#displayBody {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 5fr 3fr;
+    grid-template-rows: 5vw 1fr 5fr 3fr;
 }
 
 button {
