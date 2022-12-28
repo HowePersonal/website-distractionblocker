@@ -1,0 +1,31 @@
+#bodyContent {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr;
+}
+
+#productText {
+    grid-column: 2/3;
+}
+
+#productText h1 {
+    font-size: 40px;
+}
+
+#productText h5 {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: silver;
+}
+
+#productText p {
+    margin-top: 0;
+    color: gray;
+    font-size: 17px;
+}
+
+#productImg {
+    grid-column: 3/4;
+}

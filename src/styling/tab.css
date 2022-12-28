@@ -1,0 +1,27 @@
+#tabDiv {
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 1;
+    grid-template-columns: 5vw minmax(280px, 20vw) repeat(3, 0.7fr) 3fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+#productTitle {
+    grid-column: 2/3;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tabButton {
+    border: 0;
+    height: 45px;
+    font-size: 20px;
+    background-color: #121212;
+    color: lightgrey;
+}
+
+.tabButton:hover {
+    color: white;
+}
